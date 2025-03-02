@@ -1,0 +1,22 @@
+$primary-color: #333;
+$secondary-color: #ddd;
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header, footer {
+  background-color: $primary-color;
+  color: white;
+  padding: 10px;
+}
+
+article {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid $secondary-color;
+  
+  h2 {
+    font-size: 1.5em;
+  }
+}
